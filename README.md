@@ -1,41 +1,16 @@
-# Website
+# UNIVERSIDAD TECNOLÓGICA DE LA SIERRA HIDALGUENSE 
+## INGENIERÍA EN DESARROLLO Y GESTIÓN DE SOFTWARE MULTIPLATAFORMA
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Desarrollo de Aplicaciones Progresivas
 
-### Installation
+### Documentacíon sobre Promesas y Fetch API
 
-```
-$ yarn
-```
+#### Integrantes:
 
-### Local Development
+**Antolín García Pérez 2021024 10IDGSM-G1**
+**Samantha Michelle Díaz Reyes**
 
-```
-$ yarn start
-```
+**10IDGS-G1**
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+ZACUALTIPÁN DE ÁNGELES, HGO, A 05 DE OCTUBRE 2024.
