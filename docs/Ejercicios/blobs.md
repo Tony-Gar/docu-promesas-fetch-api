@@ -1,3 +1,6 @@
+---
+sidebar_position: 7
+---
 # Ejercicios: Obtener Blobs de archivos o datos binarios con Fetch API
 
 ## 1. Ejercicio Básico: Obtener una imagen como Blob

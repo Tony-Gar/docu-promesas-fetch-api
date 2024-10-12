@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Ejercicios sobre Promise.race
 
 ## 1. Ejercicio Básico: Obtener la primera promesa que se resuelva

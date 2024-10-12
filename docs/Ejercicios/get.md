@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Ejercicios: Realizar solicitudes HTTP GET con Fetch API
 
 ## 1. Ejercicio Básico: Obtener todos los posts

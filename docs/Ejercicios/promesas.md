@@ -1,3 +1,6 @@
+---
+sidebar_position: 0
+---
 # Ejercicios sobre Promesas en JavaScript
 
 ## 1. Ejercicio Básico: Crear una promesa simple que resuelva un valor numérico

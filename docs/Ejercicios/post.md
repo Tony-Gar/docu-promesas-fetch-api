@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Ejercicios: Realizar solicitudes HTTP POST con Fetch API
 
 ## 1. Ejercicio Básico: Realizar una solicitud POST con datos JSON

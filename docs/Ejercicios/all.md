@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Ejercicios sobre Promise.all
 
 ## 1. Ejercicio Básico: Ejecutar dos promesas en paralelo

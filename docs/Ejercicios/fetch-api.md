@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Ejercicios sobre Fetch API
 
 ## 1. Ejercicio Básico: Realizar una solicitud HTTP GET
