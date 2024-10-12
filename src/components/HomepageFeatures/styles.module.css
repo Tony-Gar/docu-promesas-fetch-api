@@ -1,0 +1,91 @@
+.features {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+}
+
+.featureSvg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  /* Efecto al pasar el ratón sobre el ícono */
+}
+
+.featureSvg:hover {
+  transform: scale(1.1); /* Agranda el ícono ligeramente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.customHeading {
+  color: #2e8555;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out; /* Cambio de color en hover */
+}
+
+.customHeading:hover {
+  color: #1b6e38; /* Oscurecer el color en hover */
+}
+
+.mainHeading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #0d47a1;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra de texto ligera */
+}
+
+.introText {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  transition: color 0.3s ease-in-out; /* Transición de color en hover */
+}
+
+p:hover {
+  color: #1313159c; /* Cambia a un tono más oscuro en hover */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.padding-horiz--md {
+  padding: 0 1rem;
+}
+
+.col--4 {
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.col--4:hover {
+  transform: translateY(-10px); /* Efecto de elevarse al hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa al elevarse */
+}
+
+/* Efecto de transición en todo el bloque de características */
+.features .col--4 {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Efectos de hover sobre todo el bloque */
+.features .col--4:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}

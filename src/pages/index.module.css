@@ -1,0 +1,147 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Aparece desde abajo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Posición original */
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #03036d8f; /* Fondo elegante */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: all 0.3s ease-in-out;
+  animation: fadeIn 1s ease-out; /* Animación de aparición */
+}
+
+.heroBanner:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra más intensa en hover */
+  transform: scale(1.02); /* Zoom suave */
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    border-radius: 5px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Espaciado entre botones */
+  margin-top: 1.5rem;
+  animation: slideIn 0.8s ease-out; /* Animación de entrada desde la izquierda */
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2e8555; /* Color del botón */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease;
+  border-radius: 50%;
+}
+
+.buttons a:hover::before {
+  transform: translate(-50%, -50%) scale(1); /* Efecto de onda */
+}
+
+.buttons a:hover {
+  background-color: #256f44; /* Cambio de color en hover */
+  transform: translateY(-3px); /* Elevación suave */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.buttons a:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mainHeading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra de texto más pronunciada */
+  animation: fadeIn 1.5s ease-out; /* Animación de aparición lenta */
+}
+
+.introText {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #e0e0e0; /* Color más claro para el texto introductorio */
+  line-height: 1.6;
+  animation: fadeIn 1.2s ease-out; /* Aparece ligeramente después del título */
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  transition: color 0.3s ease-in-out;
+}
+
+p:hover {
+  color: #555; /* Oscurece el color en hover */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.padding-horiz--md {
+  padding: 0 1rem;
+}
+
+.col--4 {
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.col--4:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
